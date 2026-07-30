@@ -10,3 +10,5 @@ Table columns:
 &emsp;&emsp;water_content TEXT,  
 &emsp;&emsp;preference_rating INTEGER,  
 &emsp;&emsp;tasting_notes TEXT
+
+```
