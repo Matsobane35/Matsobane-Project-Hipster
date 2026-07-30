@@ -125,7 +125,7 @@ function App() {
     <div className="min-h-screen flex flex-col overflow-y-auto">
       <div className="flex flex-col gap-4 px-3 py-6">
         <div className="flex items-center justify-between">
-          <p className="size-fit text-[#201711] text-[1.5rem]">Brew log</p>
+          <p className="size-fit text-[#201711] text-[1.5rem]">Brew log ({coffeeData.length})</p>
           <button onClick={() => {setShowPopup(true), setClickedItem(dummyCoffee)}} className="px-8 py-1.5 text-[0.7rem] bg-black rounded-[100px] text-white hover:bg-gray-800 hover:cursor-pointer">
             Add
           </button>
