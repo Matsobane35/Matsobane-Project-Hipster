@@ -3,10 +3,10 @@ Database set-up:(Postgresql)
 Table name: brews
 
 Table columns:  
-&emsp;coffee_id INTEGER PRIMARY KEY,  
-&emsp;beans_used VARCHAR(50),  
-&emsp;brewing_method VARCHAR(50),  
-&emsp;coffee_content VARCHAR(5),  
-&emsp;water_content VARCHAR(5),  
-&emsp;preference_rating INTEGER,  
-&emsp;tasting_notes VARCHAR(250)
+&emsp;&emsp;coffee_id INTEGER PRIMARY KEY,  
+&emsp;&emsp;beans_used TEXT,  
+&emsp;&emsp;brewing_method TEXT,  
+&emsp;&emsp;coffee_content TEXT,  
+&emsp;&emsp;water_content TEXT,  
+&emsp;&emsp;preference_rating INTEGER,  
+&emsp;&emsp;tasting_notes TEXT
